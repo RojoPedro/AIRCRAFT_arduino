@@ -1,65 +1,65 @@
 # ✈️ Flight Visualizer ESP32
 
-Un progetto **Arduino** basato su **ESP32**, sviluppato su richiesta di **Alpi Aviation**.  
-Il dispositivo è un **visualizzatore di volo digitale** pensato per essere installato sul **cruscotto di un superleggero**, e rappresenta il **primo assistente di volo digitale** disponibile per questo tipo di velivoli.
+An **Arduino-based** project built on the **ESP32** platform, developed upon request from **Alpi Aviation**.  
+This device acts as a **digital flight visualizer** designed to be mounted on the **cockpit dashboard of a light aircraft**, representing the **first digital flight assistant** available for ultralight planes.
 
 ---
 
-## 🚀 Descrizione del progetto
+## 🚀 Project Overview
 
-Il dispositivo comunica con la centralina di bordo e fornisce in tempo reale le principali informazioni di volo, offrendo al pilota un’interfaccia chiara e moderna.  
-È progettato per migliorare l’esperienza di volo, ridurre il carico cognitivo e rendere più intuitiva la lettura dei dati.
-
----
-
-## 🧭 Funzionalità principali
-
-- **Visualizzazione dati di volo**  
-  Mostra le informazioni fondamentali come:
-  - Inclinazione flap  
-  - Quota  
-  - Livello carburante  
-  - Stato del carrello  
-  - Altri parametri di volo essenziali
-
-- **Assistente vocale integrato**  
-  Attivabile tramite la **pressione del dispositivo** (pulsante analogico), consente di ricevere notifiche vocali dei parametri più rilevanti.
-
-- **Interfaccia grafica LVGL**  
-  Tutta l’interfaccia utente è realizzata con **[LVGL](https://lvgl.io/)**, una libreria grafica open-source ottimizzata per microcontrollori embedded.
+The device interfaces with the aircraft’s onboard control unit to display real-time flight information, providing the pilot with a modern, intuitive interface.  
+It is designed to enhance flight awareness, reduce cognitive load, and make essential data easier to read and interpret.
 
 ---
 
-## ⚙️ Hardware e Software
+## 🧭 Main Features
 
-- **Scheda principale:** ESP32  
-- **Linguaggio:** Arduino C++  
-- **Framework grafico:** LVGL  
-- **Input:** Pulsante analogico (touch/pressione)  
-- **Output:** Display TFT e audio assistente vocale  
+- **Real-time flight data visualization**  
+  Displays key flight parameters such as:
+  - Flap inclination  
+  - Altitude  
+  - Fuel level  
+  - Landing gear status  
+  - Other critical flight metrics  
 
----
+- **Integrated voice interaction**  
+  Activated by **pressing the device** (analog button), allowing the pilot to both receive spoken updates and communicate with the digital assistant.
 
-## 🧩 Stato del progetto
-
-Il progetto è attualmente in **fase di sviluppo prototipale**, con l’obiettivo di essere testato su velivoli Alpi Aviation per la validazione dei sistemi.
-
----
-
-## 🛠️ Autori
-
-Progetto sviluppato su richiesta di **Alpi Aviation**  
-Sviluppo software e interfaccia a cura di:  
-**[Inserisci il tuo nome o team qui]**
+- **LVGL-based graphical interface**  
+  The entire user interface is built using **[LVGL](https://lvgl.io/)**, an open-source graphics library optimized for embedded microcontrollers.
 
 ---
 
-## 📄 Licenza
+## ⚙️ Hardware & Software
 
-Questo progetto è distribuito sotto licenza **MIT**.  
-Consulta il file [`LICENSE`](LICENSE) per i dettagli.
+- **Main board:** ESP32  
+- **Language:** Arduino C++  
+- **Graphics framework:** LVGL  
+- **Input:** Analog button (touch/press)  
+- **Output:** TFT display and voice assistant (audio input/output)
 
 ---
 
-> “Portare la leggerezza del volo anche nei sistemi di bordo.”  
+## 🧩 Project Status
+
+The project has been **successfully delivered to Alpi Aviation** and is currently **being implemented** into their ultralight aircraft systems.
+
+---
+
+## 🛠️ Developers
+
+Developed for **Alpi Aviation**  
+Software development and interface design by:  
+**Pedro Rojo, David Tesserin, Alberto Botter, Raffaella Reccini, Raffaele Petito**
+
+---
+
+## 📄 License
+
+This project is released under the **MIT License**.  
+See the [`LICENSE`](LICENSE) file for details.
+
+---
+
+> “Bringing the lightness of flight to the cockpit.”  
 > — *Flight Visualizer Team*
